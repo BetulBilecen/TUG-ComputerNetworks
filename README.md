@@ -3,7 +3,7 @@ TCP/IP, iki veya daha fazla bilgisayarın bir ağ üzerinden birbiriyle iletişi
 
 TCP/IP protokol ailesi, farklı görevleri yerine getiren katmanlardan oluşur. Her katmanın kendine özgü görevleri bulunur ve verinin gönderici cihazdan alıcı cihaza ulaşması sırasında bu katmanlar birlikte çalışır.
 
-![TCP/IP Katmanları](C:\Users\HP\PycharmProjects\Python_Project\TUG\Images\TCP_Katmanlar.jpg)
+![TCP/IP Katmanları](Images/TCP_Katmanlar.jpg)
 
 ## 1. Physical Layer — Fiziksel Katman
 
@@ -52,7 +52,7 @@ OSI modeli, ağ üzerinden gerçekleştirilen iletişimi farklı görevlerden so
 
 OSI modeli, düzeyler arasında kullanılacak protokolleri değil, protokollerin gerçekleştirdiği görevleri belirtir.
 
-![OSI Model Katmanları](C:\Users\HP\PycharmProjects\Python_Project\TUG\Images\ISO_Katmanlar.jpg)
+![OSI Model Katmanları](Images\ISO_Katmanlar.jpg)
 OSI modeli 7 adet katmandan oluşmaktadır. TCP/IP protokol ailesinden farklı olarak Session (oturum) ve Presentation (Sunum) katmanları bulunur.
 
 ## Session Layer - Oturum Katmanı
