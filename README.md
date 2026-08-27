@@ -52,7 +52,7 @@ OSI modeli, ağ üzerinden gerçekleştirilen iletişimi farklı görevlerden so
 
 OSI modeli, düzeyler arasında kullanılacak protokolleri değil, protokollerin gerçekleştirdiği görevleri belirtir.
 
-![OSI Model Katmanları](Images\ISO_Katmanlar.jpg)
+![OSI Model Katmanları](Images/OSI_Katmanlar.jpg)
 OSI modeli 7 adet katmandan oluşmaktadır. TCP/IP protokol ailesinden farklı olarak Session (oturum) ve Presentation (Sunum) katmanları bulunur.
 
 ## Session Layer - Oturum Katmanı
@@ -71,7 +71,7 @@ Bu katman, verilerin farklı sistemler ve uygulamalar tarafından anlaşılabile
 
 # OSI ve TCP/IP Arasındaki İlişki ve Farklılıklar
 
-![OSI ve TCP/IP Arasındaki İlişki](Images\OSI ve TCP-IP Arasındaki İlişki.jpeg)
+![OSI ve TCP/IP Arasındaki İlişki](Images/OSI ve TCP-IP Arasındaki İliski.jpeg  )
 
 OSI ve TCP/IP modelleri, ağ iletişimini katmanlara ayırarak ağ üzerinde gerçekleşen veri iletişiminin daha anlaşılır hâle getirilmesini amaçlar. Her iki modelde de benzer ağ görevleri farklı katmanlara ayrılmıştır. Ancak OSI modeli, ağ iletişimini açıklamak için oluşturulmuş 7 katmanlı bir referans modelken, TCP/IP gerçek ağ iletişiminde kullanılan protokolleri temel alan bir protokol ailesi ve katmanlı modeldir. Bu nedenle iki modelin katman yapıları ve görevlerin katmanlara dağılımı arasında bazı farklılıklar bulunmaktadır.
 
