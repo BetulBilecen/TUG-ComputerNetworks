@@ -81,3 +81,10 @@ OSI ve TCP/IP modelleri, ağ iletişimini katmanlara ayırarak ağ üzerinde ger
 * OSI modelinde Application, Presentation ve Session katmanları ayrı olarak bulunurken, TCP/IP modelinde bu katmanların görevleri büyük ölçüde Application Layer içerisinde ele alınır.
 * TCP/IP gerçek ağlarda ve internet iletişiminde yaygın olarak kullanılırken, OSI modeli daha çok ağ iletişimini açıklamak, öğrenmek ve analiz etmek için kullanılan bir referans modeldir.
 * OSI modeli, katmanların görevlerini ve katmanlar arasındaki hizmet ilişkilerini daha ayrıntılı şekilde tanımlar. TCP/IP modeli ise daha esnek bir yapıya sahiptir ve protokollerin katmanlara yerleştirilmesi OSI'deki kadar katı değildir.
+
+# Kaynaklar
+- https://acikders.ankara.edu.tr/pluginfile.php/155285/mod_resource/content/0/10.2.%20TCP%20IP%20Modeli.pdf
+- https://bidb.itu.edu.tr/seyir-defteri/blog/2013/09/07/tcp-ip-protokolu
+- https://www.scribd.com/document/1053873910/BA-01https://www.scribd.com/document/1053873910/BA-01
+- https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/osi-katmanlar%C4%B1-92a2436e6900
+- https://www.priviasecurity.com/blog/osi-ve-tcp-ip-modelleri-ve-farkliliklari/
