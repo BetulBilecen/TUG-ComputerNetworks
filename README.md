@@ -27,7 +27,7 @@ TCP, bağlantı kurulmasını, veri akışının kontrol edilmesini ve verilerin
 
 TCP, gönderilen verilerin güvenilir bir şekilde iletilmesini sağlamak için ACK, sıra numaraları ve yeniden iletim gibi mekanizmalar kullanır. Verilerin eksik veya hatalı ulaşması durumunda gerekli verilerin yeniden gönderilmesini sağlar. Ayrıca verilerin doğru sırayla teslim edilmesini ve veri akışının kontrol edilmesini sağlar.
 
-UDP ise TCP'nin aksine bağlantı kurulumu gerçekleştirmez ve gönderilen verilerin hedefe ulaşıp ulaşmadığını kontrol etmez. Bu nedenle UDP'de yeniden iletim ve akış kontrolü gibi işlemler bulunmaz. Bu durum, UDP'nin TCP'ye göre daha hızlı ve daha düşük ek yükle çalışmasını sağlar. Ancak veri kaybına karşı TCP kadar güvenilir değildir.
+UDP ise TCP'nin aksine daha yavaş olmakla birlikte gönderilen verilerin hepsinin hedefe ulaşıp ulaşmadığı kontrol edilmez. Bu daha sonrasında eksik veri gönderimine sebebiyet verebilir ve o eksik veri tekrar gönderilemez.Bu nedenle UDP'de yeniden iletim ve akış kontrolü gibi işlemler bulunmaz. Bu durum, UDP'nin TCP'ye göre daha hızlı ve daha düşük ek yükle çalışmasını sağlar. Ancak veri kaybına karşı TCP kadar güvenilir değildir.
 
 Basitçe anlatmak gerekirse, uygulama katmanından gelen veri taşıma katmanında TCP kullanılıyorsa segment adı verilen veri birimlerine ayrılır ve hedef cihazın taşıma katmanına gönderilir. Hedef cihazda segment içerisindeki veri üst katmana aktarılır ve uygulamanın kullanabileceği hâle getirilir.
 
