@@ -6,7 +6,7 @@ Object-Relational Mapping (ORM), ilişkisel veritabanları (MySQL, MSSQL, SQLite
 
 Geleneksel yöntemde, veritabanındaki tablolara ve verilere erişmek için SELECT, WHERE, INSERT, UPDATE gibi SQL sorguları doğrudan yazılır. ORM mimarisinde veritabanıyla etkileşim büyük ölçüde programlama dili üzerinden gerçekleştirilir; ORM, arka planda gerekli SQL sorgularını oluşturur ve çalıştırır. Veritabanı tabloları kod içerisindeki sınıflara (class), tablodaki sütunlar ise bu sınıfların özelliklerine (property) dönüşür. Hatta veritabanının kendisi doğrudan kod yazılarak (Code-First yaklaşımıyla) oluşturulabilir.
 
-![ORM.png](ORM.png)
+![ORM.png](Images/ORM.png)
 
 Veritabanındaki her tablonun bir sınıfa dönüşmesi sayesinde tablolar arası ilişkileri yönetmek, verileri güncellemek ve birbirine bağlı karmaşık işlemleri gerçekleştirmek çok daha kolay ve güvenli hâle gelir.
 
