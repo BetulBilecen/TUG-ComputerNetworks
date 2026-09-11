@@ -3,7 +3,7 @@ Cihaz ile ağ arasında bulunan bir katmandır. Bu katmanın amacı; web servisl
 
 Proxy ile IP gizleme işleminde istemci (client) bir istek gönderir. Bu istekte proxy, IP adresine ve ne istendiğine bakar; ardından kendi IP adresi ile bu isteği ilgili sunucu veya ağdan talep eder. Daha sonrasında gelen veri önce proxy'ye gider ve verinin bir kopyası önbellekte depolanır. Son olarak da veri, proxy'den istemciye iletilir.
 
-![Proxy Çalışma Şekli](C:\Users\HP\PycharmProjects\Python_Project\TUG\Images\proxy-calisma-mantigi.jpg)
+![Proxy Çalışma Şekli](Images/proxy-calisma-mantigi.jpg)
 
 Birden fazla cihazın kullanıldığı şirket gibi alanlarda ise işleyiş; yönlendirici (router) ve anahtarlayıcılar (switch) üzerinden sağlanmaktadır. Switch veya router üzerindeki IP adresi gizlenerek ağa bağlanılır; gelen bilgi de önce router ve switch'lere iletilir, sonrasında ilgili bilgisayarlara dağıtılır.
 
